@@ -22,7 +22,7 @@ h1 {
     font-family: "Inter", sans-serif;
     font-style: italic;
     font-weight: 150;
-    font-size: 24px;   
+    font-size: 21px;   
     text-align: left;
     position: absolute;
     left: 80px;        
@@ -30,15 +30,98 @@ h1 {
     width: 363px;        
     line-height: 1.5;
     color: #E072A4;
+    
+
 }
 
 .box {
   position: absolute;  
-  top: 500px;          
-  left: 80px;   
-  width: 200px;        /* you need width too */
-  height: 150px;       
-  background-color: #FFD116;  /* fixed hex code */
-  border: 2px solid #333; 
-  border-radius: 12px; 
+  top: 196px;          
+  left: 441px;   
+  width: 535px;       
+  height: 1068px;       
+  background-color: #FFD166;
+  z-index: 0;  
+
+
+}
+
+
+.box-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 850; 
+  position: absolute;
+  bottom: 647px;       
+  right: -9px;   
+  color: #E072A4;
+  font-size: 200px;  
+  text-align: left;
+  z-index: 1;
+}
+
+.right .box-scnd {
+  position: absolute;  
+  top: 37%;          
+  left: 33.7%;
+  padding: 60px 80px;
+  flex-direction: column;
+  width:  254px;     
+  height: 1100px;   
+  
+  gap: 10px;
+  z-index: 2;
+}
+
+.btn {
+ 
+  display: block;
+  background: #d36ba2;
+  color: #FFD166;  
+  padding: 32px 10px;   
+  height: 24px;  
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  transition: background 0.3s;
+  font-size: 21px;
+  text-decoration: none;
+  margin-bottom: 20px;
+
+
+}
+
+.btn:hover {
+  background: #c15991;
+}
+
+.inner .box-thrd {
+  position: absolute;  
+  top: 80%;          
+  left: 80%
+  display: flex;
+  flex-direction: column;
+  gap: 100px;              
+  align-items: flex-start;   
+  margin-top: 50px;
+}
+
+.box-thrd {
+  position: absolute;     
+  top: 10px;
+  left: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;         
+  align-items: flex-start;
+}
+
+.letter {
+  font-family: "Instrument Sans", sans-serif;
+  font-style: italic;
+  font-size: 93.5px;
+  -webkit-text-stroke: 1px #E072A4; 
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* fallback */
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
